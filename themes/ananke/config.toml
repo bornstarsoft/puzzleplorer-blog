@@ -1,10 +1,14 @@
 
-baseURL = "https://puzzleplorer-blog.pages.dev/"
+baseURL = "https://puzzleplorer.com/"
 languageCode = "en-us"
-title = "Puzzleplorer Blog"
+title = "Puzzleplorer"
 theme = "ananke"
-buildFuture = true
-paginate = 10
+
+enableRobotsTXT = true
+buildFuture = false
+
+[pagination]
+pagerSize = 10
 
 [params]
   mainSections = ["posts"]
